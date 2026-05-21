@@ -5,7 +5,7 @@ load_dotenv()  # читает .env файл и загружает перемен
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")        # токен от @BotFather
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")  # ключ Gemini
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash-latest")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash-lite")
 
 # Названия языков для промптов
 LANG_PAIRS = {
